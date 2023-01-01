@@ -14,7 +14,6 @@
     }
 
     // Home Section B
-
     &__b {
         .profile {
             display: grid;
@@ -43,6 +42,56 @@
                 &:nth-child(even) {
                     background-color: $medium-color;
                 }
+            }
+        }
+    }
+
+    // Home Section C
+    &__c {
+        .process {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            text-align: center;
+
+            i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 26%;
+            }
+
+            &__icon {
+                align-self: center;
+                position: relative;
+                width: 125px;
+                height: 125px;
+                border-radius: 50%;
+                background-color: $dark-color;
+                color: #fff;
+                padding: 2rem;
+                text-align: center;
+                transition: all 0.5s;
+
+                &:hover {
+                    background-color: $primary-color;
+
+                    .process__step {
+                        background-color: $dark-color;
+                    }
+                }
+            }
+
+            &__step {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 25px;
+                background-color: $primary-color;
+                border-radius: 50%;
+                line-height: 15px;
+                padding: 1rem;
+                transition: all 1s;
             }
         }
     }

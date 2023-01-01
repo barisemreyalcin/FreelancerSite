@@ -17,12 +17,12 @@
   background-color: #eb6440;
 }
 .btn-light {
-  color: #483838;
+  color: #211512;
   background-color: #f6f3ee;
 }
 .btn-dark {
   color: #f6f3ee;
-  background-color: #483838;
+  background-color: #211512;
 }
 
 button [class^=btn-]:hover,
@@ -32,7 +32,7 @@ input [class^=btn-]:hover {
 }
 
 .bg-dark {
-  background-color: #483838;
+  background-color: #211512;
 }
 .bg-primary {
   background-color: #eb6440;
@@ -153,7 +153,7 @@ img {
   padding-top: 30%;
 }
 #header__home h1 {
-  font-size: 4rem;
+  font-size: 3.2rem;
   line-height: 1.2;
 }
 #header__home .typewrite {
@@ -175,7 +175,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 #home__b .profile i {
-  color: #483838;
+  color: #211512;
 }
 #home__b .profile li.title {
   font-size: 1.5rem;
@@ -192,6 +192,70 @@ img {
 }
 #home__b .profile div:nth-child(even) {
   background-color: #d9cfbf;
+}
+#home__c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+#home__c .process i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26%;
+}
+#home__c .process__icon {
+  align-self: center;
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #211512;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+#home__c .process__icon:hover {
+  background-color: #eb6440;
+}
+#home__c .process__icon:hover .process__step {
+  background-color: #211512;
+}
+#home__c .process__step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  background-color: #eb6440;
+  border-radius: 50%;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
+}
+
+#main-footer {
+  background-color: #211512;
+  color: #fff;
+  height: 5rem;
+}
+#main-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+#main-footer .footer-content .social .fa-brands {
+  margin-right: 1rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.6rem;
+  transition: all 0.6s;
+}
+#main-footer .footer-content .social .fa-brands:hover {
+  background-color: #eb6440;
 }
 
 /*# sourceMappingURL=main.css.map */
