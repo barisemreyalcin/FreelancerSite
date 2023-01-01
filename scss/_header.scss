@@ -6,8 +6,8 @@
     padding-top: 1rem;
 
     &__logo {
-        width: 85px;
-        height: 85px;
+        width: 70px;
+        height: 70px;
     }
 
     &__items {
@@ -52,5 +52,11 @@
         .typewrite {
             display: block;
         }
+    }
+
+    &__inner {
+        background: $bg-image no-repeat 40% 20% / cover;
+        height: 5.5rem;
+        border-bottom: 3px solid $primary-color;
     }
 }
