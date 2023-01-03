@@ -440,6 +440,9 @@ img {
     flex-direction: column;
     align-items: center;
   }
+  .main-nav li {
+    padding: 1rem;
+  }
   #home__a .skills,
   #home__b .profile,
   #home__c .process,
