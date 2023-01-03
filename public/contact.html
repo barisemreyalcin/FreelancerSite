@@ -56,7 +56,11 @@
                 <h2 class="section-title">Contact Me</h2>
                 <div class="border bottom"></div>
                 <p class="lead">For any questions and advice:</p>
-                <form action="https://formspree.io/f/mdovoavg" method="POST">
+                <form
+                    data-netlify="true"
+                    data-netlify-recaptcha="true"
+                    method="POST"
+                >
                     <div class="form-fields">
                         <input
                             type="text"
@@ -92,6 +96,7 @@
                             id="message"
                             placeholder="Text your message"
                         ></textarea>
+                        <div data-netlify-recaptcha="true"></div>
                         <button type="submit" class="btn-dark">Submit</button>
                     </div>
                 </form>
